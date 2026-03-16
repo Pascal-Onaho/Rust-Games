@@ -1,0 +1,6 @@
+[package]
+name = "DNA_Base_Counter"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
