@@ -3,10 +3,13 @@ use std::io;
 fn main() {
     let dna_bases: [char; 4] = ['A', 'C', 'T', 'G'];
 
+    // Stack data → simple, Copy type (no complex ownership behavior)
+
     println!("These are the four DNA bases in biology: {:?}", dna_bases);
 
 
     let mut user_char = String::new();
+     // user_char OWNS a String (heap data starts here)
 
     println!("Enter a character:");
 

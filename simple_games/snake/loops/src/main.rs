@@ -1,3 +1,11 @@
+// Rust has three types of loop:
+// loop
+// while
+// for
+
+
 fn main() {
-    println!("Hello, world!");
+    loop {
+        println!("again!");
+    }
 }
